@@ -1,0 +1,198 @@
+:root {
+  --primary-color: #ffb443;
+  --secondary-color: #029e52;
+  --primary-text-color: black;
+  --secondary-text-color: white;
+  --font-size: 16px;
+  --font-weight: 700;
+}
+body {
+  font-family: "tajawal", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: var(--font-weight);
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px 0;
+}
+.startNow {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-color);
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: var(--font-size);
+  border: none;
+  border-radius: 20px 20px 20px 0px;
+}
+.bookNow {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-color);
+  padding: 15px 30px;
+  font-size: var(--font-size);
+  border: none;
+  border-radius: 20px 20px 20px 0px;
+}
+.nav-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-size: var(--font-size);
+  padding: 10px;
+  margin-inline: 2px;
+}
+.dropdown-toggle {
+  direction: rtl;
+}
+.welcomeText {
+  font-weight: var(--font-weight);
+  font-size: 40px;
+  text-align: center;
+}
+.insideWelcome {
+  color: var(--secondary-color);
+}
+.create {
+  color: var(--primary-color);
+  background-color: white;
+  border-color: var(--primary-color);
+  border-radius: 8px;
+  border-width: 2px;
+  padding: 12px;
+  width: 49%;
+}
+.sign {
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  width: 49%;
+}
+.btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+.packages {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 180, 67, 0.6) 0%,
+    rgba(255, 255, 255, 0.6) 100%
+  );
+}
+.badge {
+  color: var(--secondary-color);
+  background-color: white;
+  font-weight: 500;
+}
+.card {
+  direction: rtl;
+  margin-bottom: 20px;
+}
+.packagesWord {
+  color: var(--secondary-color);
+  font-size: 40px;
+  border-bottom: 2px solid var(--primary-color);
+}
+.grade {
+  font-weight: 400;
+  font-size: 16px;
+  color: #838383;
+}
+.monthNum {
+  font-size: 25px;
+  font-weight: 800;
+}
+.content {
+  font-weight: 400;
+  font-size: 16px;
+}
+.plans {
+  background-image: url(./assets/coffee.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.circle {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+.plansTips {
+  line-height: 30px;
+}
+.educationalYears {
+  font-size: 20px;
+  color: black;
+}
+.educationalYearsMain {
+  background-image: url(./assets/waves.png);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.grade2 {
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  top: 250px; /* Added px unit */
+  position: absolute; /* Ensure it stays within the relative parent */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.opinionsSection {
+  direction: rtl;
+}
+.opinionCard {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.quote {
+  width: 45px;
+  height: 35px;
+  margin: 10px;
+}
+.person {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.img-fluid1{
+  width: 477px;
+  height: 478px;
+}
+footer{
+  direction: rtl;
+}
+.logoWords{
+  color: var(--secondary-color);
+}
+.circle2{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-decoration-none{
+  font-weight: 300;
+}
+.form-control{
+  border-radius: 20px;
+  border: 1px solid black;
+  padding-block: 20px;
+  font-size: var(--font-size);
+}
+.subscribe{
+  background-color: var(--primary-color);
+  color: var(--secondary-text-color);
+  border-radius: 20px;
+  padding: 15px;
+  font-size: var(--font-size);
+  border: none;
+}
+.footerText{
+  direction: rtl;
+}
